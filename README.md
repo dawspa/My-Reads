@@ -2,7 +2,7 @@
 
 This is the final assessment project for Udacity's React Fundamentals course. A static example of the CSS and HTML markup was provided and was used to write React code that was needed to complete the project. Progressively, added interactivity to the app by refactoring the static code.
 
-![My reads App](https://github.com/nidhigaday/My-Reads/blob/master/public/My%20Reads%20app.gif)
+![My reads App](https://github.com/nidhigaday/My-Reads/blob/master/public/Smal%20app%20gif.gif)
 
 
 ## TL;DR
