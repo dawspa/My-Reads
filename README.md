@@ -42,12 +42,12 @@ The provided file [`BooksAPI.js`](src/BooksAPI.js) contains following methods to
 * [`update`](#update) Update shelf information of the book
 * [`search`](#search) Search book in the database
 
-# Completed Tasks:
+## Completed Tasks:
 
 * GetAll books from API
 * Able to move books between the shelves
 
-# Pending Tasks:
+## Pending Tasks:
 
 * Able to Search and add books
 * Book shelf or state should reflect on both Search and Main page
