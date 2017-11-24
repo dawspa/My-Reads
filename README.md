@@ -57,7 +57,7 @@ The provided file [`BooksAPI.js`](src/BooksAPI.js) contains following methods to
   ```
 * Keep UI and URL in sync
   ```
-  ├── Leveraged <BrowserRouter /> from react-router-dom to record the state of the page when left 
+  ├── Leveraged <BrowserRouter /> from react-router-dom to render the UI based on its URL instead of the state 
   ├── 
   └── 
   ```
