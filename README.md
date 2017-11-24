@@ -51,3 +51,4 @@ The provided file [`BooksAPI.js`](src/BooksAPI.js) contains following methods to
 
 * Able to Search and add books
 * Book shelf or state should reflect on both Search and Main page
+* Keep UI and URL in sync
