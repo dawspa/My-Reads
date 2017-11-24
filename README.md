@@ -45,10 +45,28 @@ The provided file [`BooksAPI.js`](src/BooksAPI.js) contains following methods to
 ## Completed Tasks:
 
 * GetAll books from API
+  ```
+  ├── Leveraged (#getall) in the component lifecycle - componentDidMount()
+  └── Used SetState() to render books in the UI
+  ```
 * Able to move books between the shelves
-
+  ```
+  ├── Leveraged (#update) in the component to update shelf value of the book in the backend 
+  ├── Re-rendered UI with updated state by using setState
+  └── Component state is passed from Parent to Child component using Props
+  ```
+* Keep UI and URL in sync
+  ```
+  ├── Leveraged <BrowserRouter /> from react-router-dom to record the state of the page when left 
+  ├── 
+  └── 
+  ```
 ## Pending Tasks:
 
 * Able to Search and add books
 * Book shelf or state should reflect on both Search and Main page
 * Keep UI and URL in sync
+
+## Resources
+
+* [react-router-dom](https://www.npmjs.com/package/react-router-dom)
