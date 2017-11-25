@@ -25,6 +25,7 @@ This is the final assessment project for Udacity's React Fundamentals course. A 
     ├── BooksAPI.js # A JavaScript API for the provided Udacity backend.
     ├── Bookshelves.js # JS file for the component to render each shelf items.
     ├── ListBooks.js # JS file for the component to render all components on the page.
+    ├── SearchBooks.js # JS file for the component to render Seacrh books page.
     ├── icons # Helpful images for the app.
     ├── index.css # Global styles.
     └── index.js # Used for DOM rendering.
@@ -57,16 +58,17 @@ The provided file [`BooksAPI.js`](src/BooksAPI.js) contains following methods to
   ```
 * Keep UI and URL in sync
   ```
-  ├── Leveraged <BrowserRouter /> from react-router-dom to render the UI based on its URL instead of the state 
-  ├── 
-  └── 
+  └── Leveraged <BrowserRouter /> from react-router-dom to render the UI based on its URL instead of the state 
   ```
-## Pending Tasks:
-
 * Able to Search and add books
+  ```
+  └── Leveraged top-bottom approach by passing updated state of the Parent to Child component
+  ```
 * Book shelf or state should reflect on both Search and Main page
-* Keep UI and URL in sync
+  ```
+  └── Used ES6 concat function to sustain state of the existing books under Search page
+  ```
 
-## Resources
+## Resources & Dependencies
 
 * [react-router-dom](https://www.npmjs.com/package/react-router-dom)
