@@ -1,13 +1,12 @@
-import React, { Component } from 'react'
-import { Link } from 'react-router-dom'
+import React, {Component} from 'react'
+import {Link} from 'react-router-dom'
 import Shelf from './Bookshelves'
 import * as BooksAPI from './BooksAPI'
-
 
 class SearchBooks extends Component {
 
   render() {
-    const { filteredBooks, searchBooks, updateOption } = this.props
+    const {filteredBooks, searchBooks, updateOption} = this.props
 
     return (
       <div>
@@ -25,13 +24,7 @@ class SearchBooks extends Component {
 
         <div className="search-books-results">
           <ol className="books-grid">
-            {filteredBooks.map( book => (
-                <Shelf
-                  book={book}
-                  key={book.id}
-                  updateOption={updateOption}
-                />
-            ))}
+            {filteredBooks.map(book => (<Shelf book={book} key={book.id} updateOption={updateOption}/>))}
           </ol>
         </div>
 
