@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
+import { Link } from 'react-router-dom'
 import PropTypes from 'prop-types'
 import Shelf from './Bookshelves'
+
 
 class ListBooks extends Component {
   static propTypes = {
@@ -9,7 +11,7 @@ class ListBooks extends Component {
 
   render() {
     const { books, updateOption } = this.props
-
+  
     return (
       <div className="list-books">
           <div className="list-books-title">
@@ -49,7 +51,7 @@ class ListBooks extends Component {
               </div>
 
               <div className="bookshelf">
-                  <h2 className="bookshelf-title">Want To Read</h2>
+                  <h2 className="bookshelf-title">Read</h2>
                   <div className="bookshelf-books">
                       <ol className="books-grid">
                       {books.filter((book) => book.shelf === "read").map( book => (
@@ -63,9 +65,10 @@ class ListBooks extends Component {
                   </div>
               </div>
 
-              {/* <div className="open-search">
-                  <a onClick={() => this.setState({ showSearchPage: true })}>Add a book</a>
-              </div>*/}
+          <div className="open-search">
+            <Link to="/search" >Add a book</Link>
+          </div>
+
 
           </div>
       </div>
