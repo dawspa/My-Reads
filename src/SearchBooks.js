@@ -8,11 +8,10 @@ class SearchBooks extends Component {
 
   render() {
     const { filteredBooks, searchBooks, updateOption } = this.props
-    const { query } = this.state
 
     return (
       <div>
-      
+
         <div className="search-books-bar">
           <Link to='/' className='close-search'>Close</Link>
           <div className='search-books-input-wrapper'>
