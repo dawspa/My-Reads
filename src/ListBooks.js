@@ -3,6 +3,7 @@ import {Link} from 'react-router-dom'
 import PropTypes from 'prop-types'
 import Shelf from './Bookshelves'
 
+// Component to render main page with bookshelves
 class ListBooks extends Component {
   static propTypes = {
     books: PropTypes.array.isRequired

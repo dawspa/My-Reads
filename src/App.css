@@ -189,3 +189,7 @@ body, .app {
   text-align: center;
   font-size: 0.8em;
 }
+
+.errorPage {
+  text-align: center;
+}

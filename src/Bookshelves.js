@@ -1,9 +1,13 @@
 import React, {Component} from 'react'
 
+// Component to render individual book
 class Shelf extends Component {
 
   render() {
     const {book, updateOption} = this.props
+    let shelfValue = (book.shelf)
+      ? book.shelf
+      : 'move'
 
     return (
       <li>
@@ -20,9 +24,9 @@ class Shelf extends Component {
             )}
             <div className="book-shelf-changer">
               <select
-                value={book.shelf}
+                value={shelfValue}
                 onChange={(event) => updateOption(book, event.target.value)}>
-                <option value="none" disabled>Move to...</option>
+                <option value="move" disabled>Move to...</option>
                 <option value="currentlyReading">Currently Reading</option>
                 <option value="wantToRead">Want to Read</option>
                 <option value="read">Read</option>
