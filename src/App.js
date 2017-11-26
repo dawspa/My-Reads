@@ -26,6 +26,7 @@ class BooksApp extends Component {
       BooksAPI
         .search(query)
         .then((result) => {
+          this.updateSearchedResult(result)
           if (result.error !== 'empty query') {
             this.setState({filteredBooks: result})
           } else {
