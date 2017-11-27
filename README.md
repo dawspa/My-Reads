@@ -68,7 +68,11 @@ The provided file [`BooksAPI.js`](src/BooksAPI.js) contains following methods to
   ```
   └── Used ES6 concat function to sustain state of the existing books under Search page
   ```
-
+* Added a Error 404: Page not found for invalid URL
+  ```
+  └── Used Switch from react-router-dom to switch between the URLs and render No page found error if does not match with any valid URLs
+  ```
+  
 ## Resources & Dependencies
 
 * [react-router-dom](https://www.npmjs.com/package/react-router-dom)
